@@ -1,0 +1,80 @@
+body{
+	font-family: 'Quattocento Sans', sans-serif;
+    font-size: 100.01%;
+    position: relative;
+    margin: 0 auto;
+    background-color: blue;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    text-align: left;
+    vertical-align: baseline;
+    outline: none;
+    display: block;
+
+}
+
+title{
+   display: none;
+}
+h1,h2{
+    font-size: 0;
+    text-align: center;
+}
+
+h1{
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+h2{
+    display: block;
+    font-size: 1em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: inherit;
+    align : center;
+    width: 944px;
+    z-index: 22;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+    position: fixed;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: white;
+}
+
