@@ -1,0 +1,16 @@
+apiVersion : apps/v1beta1
+kind: Deployment
+metadata:
+  name: "testcluster"
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: "testcluster"
+    spec:
+      containers:
+        - name: "testcluster"
+          image: "containerregisteryav.azurecr.io/testcluster"
+          ports:
+          - containerPort: 80
